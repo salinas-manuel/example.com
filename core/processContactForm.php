@@ -12,7 +12,7 @@ use Mailgun\Mailgun;
 $valid = new About\Validation\Validate();
 
 $input = filter_input_array(INPUT_POST);
-var_dump($input);
+//var_dump($input);
 $message = null;
 
 if(!empty($input)){
