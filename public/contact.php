@@ -2,6 +2,10 @@
 
 require '../core/processContactForm.php';
 
+$meta = [];
+$meta['title'] = 'Contact Information';
+$meta['description'] = 'Contact Manuel';
+$meta['keywords'] = 'Contact Manuel';
 
 $content = <<<EOT
 
