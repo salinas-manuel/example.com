@@ -9,7 +9,7 @@
   <body>
 
     <div id="Wrapper">
-        <nav class="top-nav clearfix">
+        <nav class="top-nav">
             <class="pull-left" href="/">Site Logo</a>
             <ul class ="nav-inline pull-right" role="navigation">
                 <li><a href="index.php">Home</a></li>
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div id="Footer" class="clearfix">
+        <div id="Footer">
             <small>&copy; 2017 - MyAwesomeSite.com</small>
             <ul role="navigation">
                 <li><a href="terms.html">Terms</a></li>

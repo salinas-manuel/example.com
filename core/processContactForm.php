@@ -47,11 +47,11 @@ if(!empty($input)){
     //var_dump($this->errors);
 
         if(empty($valid->errors) && !empty($input)){
-            $message = "<div style =\"color: #00ff00;\">Your form has been submitted!</div>";
+            $message = "<div class=\"success\">Success! Your form has been submitted!</div>";
             //use Mailgun\Mailgun;
 
             # Instantiate the client.
-            $mgClient = new Mailgun($mailgunkey);
+            $mgClient = new Mailgun($mailgunKey);
             $domain = "sandbox64e70fbb6d17444da05bfb9872ce2bbe.mailgun.org";
 
             # Make the call to the client.
@@ -62,9 +62,9 @@ if(!empty($input)){
                             'text'    => $input['subject']
                         ));
 
-            var_dump($result);
+            //var_dump($result);
         }else{
-            $message = "<div style =\"color: #ff0000;\">Please correct the errors below!</div>";
+            $message = "<div class=\"error\">Error! Please correct the errors below!</div>";
 
         }
 }
