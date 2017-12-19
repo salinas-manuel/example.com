@@ -1,0 +1,10 @@
+/* TEAM */
+Developer: Manuel Salinas
+site: contact.PHP
+Location: Chicago, IL.
+
+/* SITE */
+Last Update: 2017/12/18
+Standards: HTML5, CSS3
+Components:
+Software:
